@@ -1,0 +1,28 @@
+{
+ "steps": [
+  "cloned ondata",
+  "extracted src/data/valori.7z",
+  "extracted src/data/zone.7z",
+  "csv: ex/zone.csv, ex/valori.csv, src/data/QI_294583_1_20162_VALORI_utf8.csv, src/data/QI_294586_1_20161_ZONE_utf8.csv, src/data/QI_294585_1_20181_VALORI_utf8.csv, src/data/QI_294577_1_20182_ZONE_utf8.csv, src/data/QI_294581_1_20172_ZONE_utf8.csv, src/data/QI_294586_1_20161_VALORI_utf8.csv, src/data/QI_294585_1_20181_ZONE_utf8.csv, src/data/QI_294583_1_20162_ZONE_utf8.csv, src/data/QI_294582_1_20171_ZONE_utf8.csv, src/data/QI_294581_1_20172_VALORI_utf8.csv, src/data/QI_294582_1_20171_VALORI_utf8.csv, src/data/QI_294577_1_20182_VALORI_utf8.csv",
+  "valori=ex/valori.csv zona=ex/zone.csv",
+  "valori rows=971307 cols=['Area_territoriale', 'Regione', 'Prov', 'Comune_ISTAT', 'Comune_cat', 'Sez', 'Comune_amm', 'Comune_descrizione', 'Fascia', 'Zona', 'LinkZona', 'Cod_Tip', 'Descr_Tipologia', 'Stato', 'Stato_prev', 'Compr_min', 'Compr_max', 'Sup_NL_compr', 'Loc_min', 'Loc_max', 'Sup_NL_loc', 'file']",
+  "cols {\"prov\": \"Prov\", \"comune\": \"Comune_descrizione\", \"zona\": \"Zona\", \"fascia\": \"Fascia\", \"link\": \"LinkZona\", \"tip\": \"Descr_Tipologia\", \"cmin\": \"Compr_min\", \"cmax\": \"Compr_max\", \"lmin\": \"Loc_min\", \"lmax\": \"Loc_max\"}",
+  "zona descr entries=27555",
+  "DONE provinces=103"
+ ],
+ "ok": true,
+ "cols": {
+  "prov": "Prov",
+  "comune": "Comune_descrizione",
+  "zona": "Zona",
+  "fascia": "Fascia",
+  "link": "LinkZona",
+  "tip": "Descr_Tipologia",
+  "cmin": "Compr_min",
+  "cmax": "Compr_max",
+  "lmin": "Loc_min",
+  "lmax": "Loc_max"
+ },
+ "provinces": 103,
+ "total_records": 962085
+}
